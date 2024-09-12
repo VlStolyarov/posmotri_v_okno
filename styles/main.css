@@ -51,7 +51,7 @@
 }
 .content__video-card{
   display: flex;
-
+/* разобраться с последней карточкой */
 }
 .content__video-card-thumbnail{
   width: 194px;
