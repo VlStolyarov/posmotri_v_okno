@@ -34,11 +34,47 @@
   line-height: 21.6px;
   margin-bottom: 5px;
 }
+.search-form__label{
+  width: fit-content;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  gap: 5px;  /* Не применяется флекс */
+}
+.search-form__label-text{
+  font-weight: 400;
+  line-height: 21.6px;
+
+}
+.search-form__checkbox-list{
+  display: flex;
+  gap: 15px;
+
+}
+.search-form__pseudo-checkbox{
+  width: 19px;
+  height: 19px;
+  border: 1px solid white;
+}
+.search-form__textfield{
+  appearance: none;
+  font-weight: 400;
+  line-height: 21.6px;
+  background-color: transparent;
+  color: rgba(255, 255, 255, 0.7);
+  min-width: 225px;
+  border-bottom: 1px solid white;
+  border-top: 1px solid white;
+  border-right: none;
+  border-left: none;
+}
+
 .content__list{
   height: 298px;
   position: relative;
   overflow-y: auto;
-  overflow-x: hidden; 
+  overflow-x: hidden;
+  overflow: auto;
   /* нужно ли? */
 }
 .content__list-item{
@@ -81,11 +117,15 @@
     font-size: 30px;
     font-weight: 700;
     line-height: 30px;
+    /* text-overflow: ellipsis;
+    white-space: nowrap;   */
+    /* по совету из Пачки (не работает для скрытия скролла по оси Х)*/
 }
 .content__video-card-description{
     font-size: 18px;
     font-weight: 400;
     line-height: 16.2px;
+    
     
 }
 .content__video-card-description-container{
@@ -100,3 +140,25 @@
     clip-path: inset(50%);
     white-space: nowrap;
   }
+  .search-form__fieldset {
+    border: none;
+  }
+
+.button{
+  font-weight: 700;
+  line-height: 21.6px;
+  color: white;
+  font-family: 'Fira Sans Condensed';
+  cursor: pointer;
+  text-align: center;
+  background-color: transparent;
+  padding: 6px 73.5px;
+  border: 1px solid white;
+
+}
+.search-form__submit-button {
+  align-self: flex-end;
+}
+.more-button{
+width: 100%;
+}
