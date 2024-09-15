@@ -1,4 +1,4 @@
-[Проектная работа](https://github.com/VlStolyarov/posmotri_v_okno)
+[Проектная работа](git@github.com:VlStolyarov/posmotri_v_okno.git)
 
 #  <u>***Проектная работа "Посмотри в окно"***</u>
 
