@@ -88,7 +88,7 @@ async function mainMechanics(endpoint) {
       dataArray: data,
       buttonTemplate: moreButtonTmp,
       cardsContainer,
-      buttonSelector: '.more-button',
+      buttonSelector: '.content__more-button',
       initialEndpoint: endpoint,
       baseUrl: BASE_URL,
       cardTmp: cardTmp,
