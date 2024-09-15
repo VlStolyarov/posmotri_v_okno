@@ -1,86 +1,89 @@
 .search-form {
-    display: flex;
-    gap: 40px;
-    align-items: start;
-    justify-content: space-between;
-  }
-  .search-form__fieldset {
-    border: none;
-  }
-  
-  .search-form__fieldset-title {
-    font-weight: 400;
-    line-height: 21.6px;
-    margin-bottom: 5px;
-    font-size: 18px;
-    font-family: 'Fira Sans Condensed', sans-serif;
-  }
-  
-  .search-form__label {
-    width: fit-content;
-    display: flex;
-    align-items: center;
-    cursor: pointer;
-    gap: 5px;
-    /* Не применяется флекс */
-  }
-  .search-form__label:has(:focus-visible) {
-    outline: 1px solid white;
-    outline-offset: 1px;
-  }
-  .search-form__label-text {
-    font-weight: 400;
-    line-height: 21.6px;
-  
-  }
-  
+  display: flex;
+  gap: 40px;
+  align-items: start;
+  justify-content: space-between;
+}
 
-  .search-form__checkbox-list {
-    display: flex;
-    gap: 15px;
-  
-  }
-  
-  .search-form__pseudo-checkbox {
-    width: 19px;
-    height: 19px;
-    border: 1px solid white;
-  }
-  
-  .search-form__checkbox:checked+.search-form__pseudo-checkbox::after {
-    background-color: white;
-    width: 15px;
-    height: 15px;
-    margin: 1px;
-    content: "";
-    display: block;
-  
-  }
-  
-  .search-form__textfield {
-    appearance: none;
-    font-weight: 400;
-    line-height: 21.6px;
-    background-color: transparent;
-    color: rgba(255, 255, 255, 0.7);
-    min-width: 225px;
-    border-bottom: 1px solid white;
-    border-top: 1px solid white;
-    border-right: none;
-    border-left: none;
-    font-size: 18px;
-    font-family: 'Fira Sans Condensed', sans-serif;
-  
-  }
-  
-  .search-form__textfield:focus {
-    outline: 0;
-  }
-  
-  .search-form__textfield:active {
-    outline: 1px solid white;
-  }
+.search-form__fieldset {
+  border: none;
+}
 
-  .search-form__submit-button {
-    align-self: flex-end;
-  }
+.search-form__fieldset-title {
+  font-weight: 400;
+  line-height: 21.6px;
+  margin-bottom: 5px;
+  font-size: 18px;
+  font-family: 'Fira Sans Condensed', sans-serif;
+}
+
+.search-form__label {
+  width: fit-content;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  gap: 5px;
+  /* Не применяется флекс */
+}
+
+.search-form__label:has(:focus-visible) {
+  outline: 1px solid white;
+  outline-offset: 1px;
+}
+
+.search-form__label-text {
+  font-weight: 400;
+  line-height: 21.6px;
+
+}
+
+
+.search-form__checkbox-list {
+  display: flex;
+  gap: 15px;
+
+}
+
+.search-form__pseudo-checkbox {
+  width: 19px;
+  height: 19px;
+  border: 1px solid white;
+}
+
+.search-form__checkbox:checked+.search-form__pseudo-checkbox::after {
+  background-color: white;
+  width: 15px;
+  height: 15px;
+  margin: 1px;
+  content: "";
+  display: block;
+
+}
+
+.search-form__textfield {
+  appearance: none;
+  font-weight: 400;
+  line-height: 21.6px;
+  background-color: transparent;
+  color: rgba(255, 255, 255, 0.7);
+  min-width: 225px;
+  border-bottom: 1px solid white;
+  border-top: 1px solid white;
+  border-right: none;
+  border-left: none;
+  font-size: 18px;
+  font-family: 'Fira Sans Condensed', sans-serif;
+
+}
+
+.search-form__textfield:focus {
+  outline: 0;
+}
+
+.search-form__textfield:active {
+  outline: 1px solid white;
+}
+
+.search-form__submit-button {
+  align-self: flex-end;
+}

@@ -1,13 +1,13 @@
 .result__video-container {
-    position: relative;
-    width: 711px;
-    height: 386px;
-    margin-bottom: 16px;
-  }
-  
-  .result__video {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    object-position: center;
-  }
+  position: relative;
+  width: 711px;
+  height: 386px;
+  margin-bottom: 16px;
+}
+
+.result__video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
