@@ -63,7 +63,7 @@
 }
 
 .content__video-card-title {
-  font-family: 'Oswald';
+  font-family: 'Oswald', sans-serif;
   text-transform: uppercase;
   font-size: 30px;
   font-weight: 700;
