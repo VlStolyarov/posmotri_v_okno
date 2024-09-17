@@ -5,7 +5,7 @@
   width: 1140px;
 }
 
-.content__list-item {
+.content__list-item:not(:last-child) {
   margin-bottom: 30px;
 }
 
