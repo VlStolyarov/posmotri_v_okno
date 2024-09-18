@@ -14,16 +14,16 @@
 
 
 .button:focus {
-  outline: 1px solid white;
-  outline-offset: 1px;
+  outline: none;
 }
 
 .button:hover {
   text-decoration: underline;
 }
 
-button:focus-visible {
+.button:focus-visible {
   outline: 1px solid white;
+  outline-offset: 1px;
 }
 
 .button:active {
